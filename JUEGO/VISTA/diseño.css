@@ -1,0 +1,48 @@
+th, td {
+    border-style:solid;
+    border-color: #96D4D4;
+  }
+  input
+  {
+      border-style:solid;
+      border-color: #96D4D4;
+      background-color: transparent;
+      color: #96D4D4;
+      font-family: "Audiowide", sans-serif;
+      
+  }
+  table {
+      width: 50%;
+      height: 400px;
+  }
+  body
+  {
+      text-align: center;
+      font-family: "Audiowide", sans-serif;
+      color:#96D4D4;
+      background-image: url("fondo_morado.jpg");
+      background-size: cover;
+  }
+  button
+  {
+      font-family: "Audiowide", sans-serif;
+      border-color: #96D4D4;
+      background-color: transparent;
+      color: #96D4D4;
+      padding: 10px;
+  }
+  button:visited {
+  color: burlywood;
+  background-color: transparent;
+  text-decoration: none;
+  }
+  button:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+  }
+  button:active {
+  color: yellow;
+  background-color:blue;
+  text-decoration: underline;
+  }

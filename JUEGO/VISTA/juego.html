@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JUEGO</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+
+<center><h1>TRIQUI</h1><BR></center>
+
+
+<center><table style="width:50%">
+    <tr>
+      <th><br><br></th>
+      <th><br><br> </th> 
+      <th><br><br></th>
+    </tr>
+    <tr>
+        <th><br><br></th>
+        <th><br><br> </th> 
+        <th><br><br> </th>
+    </tr>
+    <tr>
+        <th><br><br></th>
+        <th><br><br> </th> 
+        <th><br><br> </th>
+    </tr>
+  </table></center><br>
+  <center><form action="/action_page.php">
+    <label for="fname">Ingrese la fila</label>
+    <input type="text" id="fname" name="fname" >
+    <label for="lname">Ingrese la columna</label>
+    <input type="text" id="lname" name="lname" ><br>
+    <button type="button" class="btn btn-light" onclick="message()">Seleccionar</button>
+    <a href="inicio.html"><button type="button" class="btn btn-light">Retroceder</button></a>
+
+  </form> 
+</center>
+
+<script>
+    function message()
+    {
+        alert("Escojiste la posicion (f,c)");
+    }
+  </script>
+</body>
+</html>
